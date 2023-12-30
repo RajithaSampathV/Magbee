@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css">
+    <title>Magbee</title>
+</head>
+
+<body>
+    <section id="home">
+        <div class="layer">
+            <nav>
+                <ul onclick="hidenav()">
+                    <li class="top"><a href="#home" >Home</a></li>
+                    <li class="top"><a href="#about">About</a></li>
+                    <li class="top"><a href="#menu">Menu</a></li>
+                    <li class="top"><a href="#reviews">Reviews</a></li>
+                    <li class="top"><a href="#gallery">Gallery</a></li>
+                    <li class="top"><a href="#contact">Contacts</a></li>
+                </ul>
+                <div class="navIcon right">
+                    <i class="fa-solid fa-bars" id="bar" onclick="shownav()"></i>
+                    <i class="fa-solid fa-xmark" id="close" onclick="hidenav()"></i>
+                </div>
+            </nav>
+            <div class="banner">
+                <div class="hometext left">
+                    <div class="first">
+                        <img src="Assets/img/Magbee Logo.png" alt="Magbee Logo">
+                        <h1>DRINK</h1>
+                    </div>
+
+                    <h1>MEET HAVE FUN</h1>
+                    <p>Savor our coffee shop's treats for lasting joy and memories.</p>
+                </div>
+            </div>
+            <a href="#about" aria-label="Click to go to About" class="angleDown top">
+                <i class="fa-solid fa-angle-down"></i> 
+            </a>                
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="top">About</h1>
+        <div class="fullbox">
+            <div class="centerbox">
+                <div class="aboutimg left">
+                    <img src="Assets/img/coffee cup.png" alt="Coffee cup">
+                </div>
+                <p class="abouttext right">
+                    Welcome to Mugbee! Enjoy our special coffees made just for you –
+                    strong espressos and smooth lattes. Our comfy place lets you relax and taste the fresh coffee smell.
+                    Come, have a great time exploring different coffee flavors with us. You'll always find a
+                    friendly atmosphere, warmth, and delicious coffee waiting for you here.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="leftside">
+            <div class="sectionHeader">
+                <h1>Our menu</h1>
+                <p class="menusub">Drink, MEET HAVE FUN</p>
+            </div>
+            <div class="menuitem left">
+                <div class="menudetails">
+                    <h3 class="menuHeader">Coffees</h3>
+                    <table>
+                        <tr>
+                            <td>Espresso</td>
+                            <td>$2.50</td>
+                        </tr>
+                        <tr>
+                            <td>Cappuccino</td>
+                            <td>$3.50</td>
+                        </tr>
+                        <tr>
+                            <td>Latte</td>
+                            <td>$4.00</td>
+                        </tr>
+                        <tr>
+                            <td>Americano</td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Macchiato</td>
+                            <td>$3.20</td>
+                        </tr>
+                        <tr>
+                            <td>Mocha</td>
+                            <td>$4.50</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="menuImage main">
+                    <img src="Assets/img/coffee.jpg" alt="Magbee coffee menu">
+                </div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="menuitem right">
+                <div class="menuImage">
+                    <img src="Assets/img/Special drinks.jpg" alt="Special drinks in Magbee">
+                </div>
+                <div class="menudetails">
+                    <h3 class="menuHeader">Specialty Drinks</h3>
+                    <table>
+                        <tr>
+                            <td>Flat White</td>
+                            <td>$4.20</td>
+                        </tr>
+                        <tr>
+                            <td>Affogato</td>
+                            <td>$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Cold Brew</td>
+                            <td>$3.80</td>
+                        </tr>
+                        <tr>
+                            <td>Turkish Coffee</td>
+                            <td>$4.50</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="menuitem right">
+                <div class="menuImage">
+                    <img src="Assets/img/Extras.jpg" alt="Extra items of Magbee">
+                </div>
+                <div class="menudetails">
+                    <h3 class="menuHeader">Extras</h3>
+                    <table>
+                        <tr>
+                            <td>Various Syrups</td>
+                            <td>$0.50</td>
+                        </tr>
+                        <tr>
+                            <td>Whipped Cream</td>
+                            <td>$0.70</td>
+                        </tr>
+                        <tr>
+                            <td>Cinnamon</td>
+                            <td>$0.50</td>
+                        </tr>
+                        <tr>
+                            <td>Cocoa Powder</td>
+                            <td>$0.50</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <h1 class="top">What Our clients say</h1>
+        <div class="fullbox">
+            <div class="centerbox">
+                <div class="review left">
+                    <div class="profile">
+                        <img src="Assets/img/Review/man1.png" alt="Tom Reynolds">
+                    </div>
+                    <p class="name">Tom Reynolds</p>
+                    <p class="reviewtext">Great vibes, killer espresso! Best spot to kickstart the day.</p>
+                    <div class="rating">
+                        <img src="Assets/img/star.png" alt="1">
+                        <img src="Assets/img/star.png" alt="2">
+                        <img src="Assets/img/star.png" alt="3">
+                        <img src="Assets/img/star.png" alt="4">
+                        <img src="Assets/img/star.png" alt="5">
+                    </div>
+                </div>
+                <div class="review left">
+                    <div class="profile">
+                        <img src="Assets/img/Review/lady1.png" alt="Emily Parker">
+                    </div>
+                    <p class="name">Emily Parker</p>
+                    <p class="reviewtext">Charming ambiance, divine lattes. A cozy haven for coffee lovers.</p>
+                    <div class="rating">
+                        <img src="Assets/img/star.png" alt="1">
+                        <img src="Assets/img/star.png" alt="2">
+                        <img src="Assets/img/star.png" alt="3">
+                        <img src="Assets/img/star.png" alt="4">
+                        <img src="Assets/img/star.png" alt="5">
+                    </div>
+                </div>
+                <div class="review left">
+                    <div class="profile">
+                        <img src="Assets/img/Review/man2.png" alt="Alex Mitchell">
+                    </div>
+                    <p class="name">Alex Mitchell</p>
+                    <p class="reviewtext">Perfect hangout, amazing brews. A go-to for coffee enthusiasts.</p>
+                    <div class="rating">
+                        <img src="Assets/img/star.png" alt="1">
+                        <img src="Assets/img/star.png" alt="2">
+                        <img src="Assets/img/star.png" alt="3">
+                        <img src="Assets/img/star.png" alt="4">
+                        <img src="Assets/img/star.png" alt="5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <h1 class="top">Gallery</h1>
+        <div class="fullbox">
+            <div class="centerbox">
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 1.jpg" alt="Magbee shop 1">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 2.jpg" alt="Magbee shop 2">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 3.jpg" alt="Magbee shop 3">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 4.webp" alt="Magbee shop 4">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 5.jpg" alt="Magbee shop 5">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 6.jpg" alt="Magbee shop 6">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 7.jpg" alt="Magbee shop 7">
+                </div>
+                <div class="box right">
+                    <img src="Assets/img/Galary/Galary 8.jpg" alt="Magbee shop 8">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="leftside">
+            <div class="verticalbox left">
+                <h2>OPENING HOURS</h2>
+                <p class="details">Mon-Fri 7am-10pm</p>
+                <p class="details">Saturday: 8am-10pm</p>
+                <p class="details">Sunday: 8am-11pm</p>
+            </div>
+            <div class="verticalbox left">
+                <h2>Contact Us</h2>
+                <p class="details"><i class="fa-brands fa-whatsapp"></i> +94 70 123 4567</p>
+                <p class="details"><i class="fa-solid fa-envelope"></i> service@magbee.com</p>
+            </div>
+            <div class="verticalbox left">
+                <h2>LOCATION</h2>
+                <p class="details"><i class="fa-solid fa-location-dot"></i>
+                    123 Anywhere St. Any City,<br>
+                    Sri Lanka
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="blacklayer">
+                <div class="followUs right">
+                    <h2>FOLLOW US ON</h2>
+                    <p class="socialMedia"><a href="https://www.instagram.com/?hl=en"><i
+                                class="fa-brands fa-instagram"></i> Instagram</a></p>
+                    <p class="socialMedia"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>
+                            Facebook</a></p>
+                    <p class="socialMedia"><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i>
+                            Twitter</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="Assets/js/script.js" type="text/javascript"></script>
+
+</html>
